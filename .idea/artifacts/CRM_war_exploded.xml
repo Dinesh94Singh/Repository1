@@ -1,0 +1,61 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CRM:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/CRM_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="CRM/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CRM" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.4.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.4.RELEASE" />
+          <element id="library" level="project" name="Hibernate 5.2.3-5.2.3" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/optional/c3p0/c3p0-0.9.5.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/optional/c3p0/hibernate-c3p0-5.2.6.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/optional/c3p0/mchange-commons-java-0.2.11.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/antlr-2.7.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/cdi-api-1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/classmate-1.3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/el-api-2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/geronimo-jta_1.1_spec-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/hibernate-commons-annotations-5.0.1.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/hibernate-core-5.2.6.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/jandex-2.0.3.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/javassist-3.20.0-GA.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/javax.inject-1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/jboss-logging-3.3.0.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/hibernate-release-5.2.6.Final/lib/required/jsr250-api-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/commons-logging-1.2/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-aop-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-aspects-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-beans-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-context-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-context-support-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-core-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-expression-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-instrument-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-instrument-tomcat-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-jdbc-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-jms-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-messaging-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-orm-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-oxm-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-test-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-tx-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-web-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-webmvc-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-webmvc-portlet-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/spring-framework-4.3.5.RELEASE/libs/spring-websocket-4.3.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/taglibs-standard-1.2.5/taglibs-standard-impl-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Jar Files/taglibs-standard-1.2.5/jstl-1.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
